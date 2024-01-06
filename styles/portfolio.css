@@ -88,3 +88,43 @@ nav li {
     margin-top:5px ;
     margin-bottom: 20px;
 }
+
+/* main section styles */
+
+main{
+    max-width: 1140px;
+    margin: 60px auto;
+    padding: 10px;
+}
+
+.section-title{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+/* about section styles */
+
+.section-description{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background-color: #f8f1ec;
+    margin-top: 130;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+
+
