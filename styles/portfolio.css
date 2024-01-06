@@ -36,7 +36,8 @@ nav {
     color: black;
     font-size: 45px;
     font-weight: 800;
-    margin-left: 10px;
+    margin-left: 50px;
+    padding-left: 100px;
 }
 
 nav>ul {
@@ -56,9 +57,9 @@ nav li {
 .header {
     background-color: #FFF8F3;
     /* background-color: bisque; */
-    background-image: url('../images/header_bg.png');
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
 
 }
 
@@ -71,6 +72,7 @@ nav li {
 
 .banner-cont {
     max-width: 500px;
+    padding-left:150px;
 }
 
 .banner .profile-pic {
