@@ -196,9 +196,30 @@ main section {
 }
 
 /* footer style */
+
+.social-links a{
+    margin-right: 25px;
+}
 footer{
     display: flex;
-    background-color: #FFF8F3;
+    gap: 100px;
+    background-color: #f3e3d7;
     padding: 130px 200px;
     margin-top: 100px;
+}
+.footer-colum{
+    width: 50%;
+}
+
+.contact input[type="text"], .contact input[type="email"],
+textarea{
+    display: block;
+    margin-bottom: 24px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius:5px;
+    /* background-color: #FFF; */
+    border: 0;
+    width: 100%;
+    
 }
