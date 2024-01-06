@@ -15,7 +15,8 @@ body{
     color: white;
     font-size: 20px;
     font-weight: 700px;
-    padding: 15px, 35px;
+    padding: 18px, 35px;
+    
 
 }
 
@@ -25,12 +26,15 @@ body{
 nav{
     display: flex;
      justify-content:space-between; 
+     align-items: center; 
+     margin: 0,200px; 
 }
 
 .tittle{
     color: black;
     font-size: 45px;
     font-weight: 800;
+    margin-left: 10px;
 }
 
 nav > ul{
@@ -44,3 +48,30 @@ nav li{
     margin-right: 50px;
     color: #474747;;
 }
+/* header related style */
+.header{
+    background-color: #FFF8F3;
+    /* background-color: bisque; */
+
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-pic{
+    width: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
